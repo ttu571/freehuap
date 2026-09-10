@@ -19,6 +19,8 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SOURCE_URLS = [
+    "https://api3.nimenshishangdi.cc/dazhutou/95dc6e601319a957f28ddb0ad7b595d9",    
+    "https://cfnew571.ttu571.de5.net/107332e5-ffdd-4ffe-8b6e-2dbbd4965aca/sub",    
     "https://wild-cloud-9893.heleimail.workers.dev",
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",
     "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
