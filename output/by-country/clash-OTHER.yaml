@@ -6,35 +6,20 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: cf9.danfeng.eu.org
-  port: 2096
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  server: 104.19.46.237
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: vip.868068.xyz
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /?ed=2048
     headers:
-      Host: vip.868068.xyz
+      Host: cfnew571.ttu571.de5.net
 - name: 🌐 其他地区 (Other) 02 - xiaohe
   type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vip.868068.xyz
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-- name: 🌐 其他地区 (Other) 03 - xiaohe
-  type: vless
-  server: 104.17.150.61
+  server: 172.64.144.82
   port: 443
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -46,37 +31,50 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 03 - xiaohe
+  type: vless
+  server: 162.159.48.32
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 04 - xiaohe
   type: vless
-  server: 104.21.41.158
+  server: 104.18.42.163
   port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 0-m19.noRth-koREa-pARk.KDnS.FR
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
+    path: /
     headers:
-      Host: 0-M19.nORTh-KoReA-park.KDNs.FR
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 05 - xiaohe
   type: vless
-  server: 172.67.223.223
+  server: cf.090227.xyz
   port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 9-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
+  servername: cfnew571.ttu571.de5.net
   network: ws
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /?ed=2048
     headers:
-      Host: 9-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
+      Host: cfnew571.ttu571.de5.net
 - name: 🌐 其他地区 (Other) 06 - xiaohe
   type: vless
-  server: 104.16.215.137
+  server: 172.64.153.106
   port: 80
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -89,100 +87,19 @@ proxies:
       Host: cfnew571.ttu571.de5.net
 - name: 🌐 其他地区 (Other) 07 - xiaohe
   type: vless
-  server: 104.16.151.21
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.156.222
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 3-m16.ChIAn-mAI-6.kDnS.Fr
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 3-m16.ChIAn-Mai-6.kdNs.Fr
 - name: 🌐 其他地区 (Other) 08 - xiaohe
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 09 - xiaohe
-  type: vless
-  server: 104.16.151.21
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 10 - xiaohe
-  type: vless
-  server: 162.159.43.187
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 11 - xiaohe
-  type: vless
-  server: 172.64.229.120
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 12 - xiaohe
-  type: vless
-  server: 104.18.212.188
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 13 - xiaohe
-  type: vless
-  server: 104.16.215.137
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
   server: 172.64.52.24
   port: 2087
@@ -196,37 +113,10 @@ proxies:
     path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 15 - xiaohe
-  type: vless
-  server: 104.21.78.194
-  port: 443
-  uuid: 2c0109e7-8d35-4d20-a076-0d4eb9eb444d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ger.chalghooz.com
-  network: ws
-  ws-opts:
-    path: /cloude
-    headers:
-      Host: ger.chalghooz.com
-- name: 🌐 其他地区 (Other) 16 - xiaohe
-  type: vless
-  server: 172.64.229.170
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 17 - xiaohe
+- name: 🌐 其他地区 (Other) 09 - xiaohe
   type: vless
   server: 162.159.43.187
-  port: 2082
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -236,36 +126,22 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 18 - xiaohe
+- name: 🌐 其他地区 (Other) 10 - xiaohe
   type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: 162.159.24.131
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.18.46.206
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2048
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 20 - xiaohe
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 11 - xiaohe
   type: vless
-  server: 104.19.193.180
+  server: 104.18.35.74
   port: 443
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -277,7 +153,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 21 - xiaohe
+- name: 🌐 其他地区 (Other) 12 - xiaohe
   type: vless
   server: 104.16.150.130
   port: 2087
@@ -291,23 +167,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 22 - xiaohe
+- name: 🌐 其他地区 (Other) 13 - xiaohe
   type: vless
-  server: 104.19.215.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 23 - xiaohe
-  type: vless
-  server: 172.64.52.68
+  server: 104.16.151.21
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -316,27 +178,68 @@ proxies:
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 24 - xiaohe
+- name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
-  server: 172.64.145.202
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.133.136
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 4-m13.1332AfDC-0737-4bB1-8cA8-EE4f0cd20Bc6.kDNS.Fr
   network: ws
   ws-opts:
-    path: /
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - xiaohe
+      Host: 4-m13.1332AfDC-0737-4bB1-8cA8-EE4f0cd20Bc6.kDNS.Fr
+- name: 🌐 其他地区 (Other) 15 - xiaohe
   type: vless
-  server: 104.18.42.163
+  server: 172.67.132.194
   port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-m13.AyutTHAYa-8.kDnS.FR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 1-m13.aYUTThAya-8.KDNs.fR
+- name: 🌐 其他地区 (Other) 16 - xiaohe
+  type: vless
+  server: 104.18.35.74
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 17 - xiaohe
+  type: vless
+  server: 172.64.154.245
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 18 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -347,36 +250,9 @@ proxies:
     path: /
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 26 - xiaohe
+- name: 🌐 其他地区 (Other) 19 - xiaohe
   type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 27 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 28 - xiaohe
-  type: vless
-  server: 172.67.77.8
+  server: 104.18.38.222
   port: 80
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -387,36 +263,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 29 - xiaohe
+- name: 🌐 其他地区 (Other) 20 - xiaohe
   type: vless
-  server: 172.64.155.70
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 30 - xiaohe
-  type: vless
-  server: cfip.1323123.xyz
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 31 - xiaohe
-  type: vless
-  server: 172.64.229.2
+  server: 162.159.38.127
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -424,95 +273,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 32 - xiaohe
+- name: 🌐 其他地区 (Other) 21 - xiaohe
   type: vless
-  server: 172.64.146.211
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 33 - xiaohe
-  type: vless
-  server: 172.64.146.169
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 34 - xiaohe
-  type: vless
-  server: cfip.1323123.xyz
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 35 - xiaohe
-  type: vless
-  server: 172.64.229.199
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 36 - xiaohe
-  type: vless
-  server: 172.67.72.11
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 37 - xiaohe
-  type: vless
-  server: 104.21.67.181
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 7-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-- name: 🌐 其他地区 (Other) 38 - xiaohe
-  type: vless
-  server: 104.19.214.98
+  server: 104.18.40.152
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -521,38 +287,10 @@ proxies:
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 39 - xiaohe
-  type: vless
-  server: 172.64.52.68
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 40 - xiaohe
-  type: vless
-  server: 104.16.167.131
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 41 - xiaohe
+- name: 🌐 其他地区 (Other) 22 - xiaohe
   type: vless
   server: 104.19.214.146
   port: 2087
@@ -566,199 +304,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 42 - xiaohe
-  type: vless
-  server: 172.67.67.176
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 43 - xiaohe
-  type: vless
-  server: 8.35.211.236
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kkkk-bq7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kkkk-bq7.pages.dev
-- name: 🌐 其他地区 (Other) 44 - xiaohe
-  type: vless
-  server: 8.6.112.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 45 - xiaohe
-  type: vless
-  server: 104.18.40.152
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 46 - xiaohe
-  type: vless
-  server: 104.17.150.61
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 47 - xiaohe
-  type: vless
-  server: 104.18.42.54
-  port: 2096
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vip.868068.xyz
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-- name: 🌐 其他地区 (Other) 48 - xiaohe
-  type: vless
-  server: 172.64.145.202
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 49 - xiaohe
-  type: vless
-  server: 172.64.157.120
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 50 - xiaohe
-  type: vless
-  server: 172.64.153.169
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 51 - xiaohe
-  type: vless
-  server: 172.67.70.138
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 52 - xiaohe
-  type: vless
-  server: 104.17.213.191
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 53 - xiaohe
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 54 - xiaohe
-  type: vless
-  server: 172.64.147.104
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 55 - xiaohe
-  type: vless
-  server: 104.17.213.191
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 56 - xiaohe
+- name: 🌐 其他地区 (Other) 23 - xiaohe
   type: vless
   server: 104.16.150.108
   port: 2087
@@ -772,9 +318,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 57 - xiaohe
+- name: 🌐 其他地区 (Other) 24 - xiaohe
   type: vless
-  server: 104.19.214.98
+  server: 172.64.52.230
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -783,12 +329,12 @@ proxies:
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 58 - xiaohe
+- name: 🌐 其他地区 (Other) 25 - xiaohe
   type: vless
-  server: 104.17.117.243
+  server: 172.64.158.115
   port: 443
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -800,50 +346,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 59 - xiaohe
+- name: 🌐 其他地区 (Other) 26 - xiaohe
   type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 60 - xiaohe
-  type: vless
-  server: 172.64.53.240
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 61 - xiaohe
-  type: vless
-  server: 162.159.48.32
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 62 - xiaohe
-  type: vless
-  server: 172.64.147.135
+  server: cloudflare-ip.mofashi.ltd
   port: 443
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -855,9 +360,37 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 63 - xiaohe
+- name: 🌐 其他地区 (Other) 27 - xiaohe
   type: vless
-  server: 104.17.160.155
+  server: 104.19.32.145
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 28 - xiaohe
+  type: vless
+  server: 8.35.211.236
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kkkk-bq7.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kkkk-bq7.pages.dev
+- name: 🌐 其他地区 (Other) 29 - xiaohe
+  type: vless
+  server: 104.18.36.29
   port: 80
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -868,7 +401,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 64 - xiaohe
+- name: 🌐 其他地区 (Other) 30 - xiaohe
   type: vless
   server: 104.19.214.97
   port: 2053
@@ -882,35 +415,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 65 - xiaohe
+- name: 🌐 其他地区 (Other) 31 - xiaohe
   type: vless
-  server: 104.18.46.234
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 66 - xiaohe
-  type: vless
-  server: 172.64.158.146
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 67 - xiaohe
-  type: vless
-  server: 172.67.65.59
+  server: 104.18.34.20
   port: 80
   uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
@@ -921,21 +428,75 @@ proxies:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 68 - xiaohe
+- name: 🌐 其他地区 (Other) 32 - xiaohe
   type: vless
-  server: 104.17.114.8
+  server: 104.16.151.21
   port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 33 - xiaohe
+  type: vless
+  server: 172.64.146.211
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 34 - xiaohe
+  type: vless
+  server: 104.18.45.178
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /?ed=2048
     headers:
       Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 69 - xiaohe
+- name: 🌐 其他地区 (Other) 35 - xiaohe
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 36 - xiaohe
+  type: vless
+  server: 104.19.152.117
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 37 - xiaohe
   type: vless
   server: 172.64.145.166
   port: 2087
@@ -949,183 +510,7 @@ proxies:
     path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 70 - xiaohe
-  type: vless
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 71 - xiaohe
-  type: vless
-  server: 172.67.77.8
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 72 - xiaohe
-  type: vless
-  server: xn--b6gac.eu.org
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 73 - xiaohe
-  type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 74 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 75 - xiaohe
-  type: vless
-  server: 104.18.40.152
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 76 - xiaohe
-  type: vless
-  server: 104.17.160.155
-  port: 443
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfnew571.ttu571.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 77 - xiaohe
-  type: vless
-  server: 104.18.34.14
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 78 - xiaohe
-  type: vless
-  server: cnamefuckxxs.yuchen.icu
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 79 - xiaohe
-  type: vless
-  server: 172.64.229.199
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 80 - xiaohe
-  type: vless
-  server: 172.64.32.108
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 81 - xiaohe
-  type: vless
-  server: 172.64.53.215
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 82 - xiaohe
-  type: vless
-  server: 104.17.117.243
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 83 - xiaohe
+- name: 🌐 其他地区 (Other) 38 - xiaohe
   type: vless
   server: 172.64.53.215
   port: 443
@@ -1139,24 +524,37 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 84 - xiaohe
+- name: 🌐 其他地区 (Other) 39 - xiaohe
   type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.64.154.38
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 40 - xiaohe
+  type: vless
+  server: cf3.danfeng.eu.org
+  port: 8443
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  servername: vip.868068.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 85 - xiaohe
+      Host: vip.868068.xyz
+- name: 🌐 其他地区 (Other) 41 - xiaohe
   type: vless
-  server: 104.25.248.101
-  port: 2087
+  server: 104.19.215.97
+  port: 2053
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1167,7 +565,49 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 86 - xiaohe
+- name: 🌐 其他地区 (Other) 42 - xiaohe
+  type: vless
+  server: 172.64.152.103
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 43 - xiaohe
+  type: vless
+  server: 172.64.145.202
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 44 - xiaohe
+  type: vless
+  server: 172.64.155.47
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 45 - xiaohe
   type: vless
   server: 104.18.38.47
   port: 2087
@@ -1181,7 +621,404 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 87 - xiaohe
+- name: 🌐 其他地区 (Other) 46 - xiaohe
+  type: vless
+  server: 104.19.46.237
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 47 - xiaohe
+  type: vless
+  server: 104.25.248.101
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 48 - xiaohe
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 49 - xiaohe
+  type: vless
+  server: 172.64.53.215
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 50 - xiaohe
+  type: vless
+  server: 104.19.53.22
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 51 - xiaohe
+  type: vless
+  server: 172.64.152.103
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 52 - xiaohe
+  type: vless
+  server: 172.64.229.170
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 53 - xiaohe
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 54 - xiaohe
+  type: vless
+  server: 172.64.145.14
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 55 - xiaohe
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 56 - xiaohe
+  type: vless
+  server: 172.64.153.80
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 57 - xiaohe
+  type: vless
+  server: 104.21.91.76
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
+- name: 🌐 其他地区 (Other) 58 - xiaohe
+  type: vless
+  server: 104.18.37.193
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 59 - xiaohe
+  type: vless
+  server: 172.64.229.8
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 60 - xiaohe
+  type: vless
+  server: 104.18.40.152
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 61 - xiaohe
+  type: vless
+  server: 104.18.44.164
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 62 - xiaohe
+  type: vless
+  server: 8.6.112.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 63 - xiaohe
+  type: vless
+  server: 172.64.52.68
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 64 - xiaohe
+  type: vless
+  server: 172.64.53.227
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 65 - xiaohe
+  type: vless
+  server: 172.64.229.2
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 66 - xiaohe
+  type: vless
+  server: 104.26.9.251
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 67 - xiaohe
+  type: vless
+  server: 172.64.153.106
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 68 - xiaohe
+  type: vless
+  server: 172.64.145.14
+  port: 443
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 69 - xiaohe
+  type: vless
+  server: 172.64.53.240
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 70 - xiaohe
+  type: vless
+  server: 172.64.147.104
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 71 - xiaohe
+  type: vless
+  server: 162.159.38.127
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 72 - xiaohe
+  type: vless
+  server: 172.64.150.84
+  port: 80
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: cfnew571.ttu571.de5.net
+- name: 🌐 其他地区 (Other) 73 - xiaohe
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 74 - xiaohe
+  type: vless
+  server: 172.64.52.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 75 - xiaohe
   type: vless
   server: 172.64.146.211
   port: 2083
@@ -1195,94 +1032,15 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 88 - xiaohe
+- name: 🌐 其他地区 (Other) 76 - xiaohe
   type: vless
-  server: cf.0sm.com
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 89 - xiaohe
-  type: vless
-  server: 104.16.246.135
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: cfnew571.ttu571.de5.net
-- name: 🌐 其他地区 (Other) 90 - xiaohe
-  type: vless
-  server: 162.159.48.32
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 91 - xiaohe
-  type: vless
-  server: 104.16.155.170
-  port: 2083
-  uuid: 50414e45-4c5f-5a45-5553-bb2d0bc74f3c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ez-e46ef3.ezaccess16b9d1f.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/bb2d0bc74f3c
-    headers:
-      Host: ez-e46ef3.ezaccess16b9d1f.workers.dev
-- name: 🌐 其他地区 (Other) 92 - xiaohe
-  type: vless
-  server: 172.67.223.194
+  server: 104.18.40.43
   port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aSSETS-DISTRibuTIon-m13-3.tAiwAN1912.Qzz.io
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: asSEtS-dIsTRIbUTIOn-M13-3.taiwAn1912.QZz.iO
-- name: 🌐 其他地区 (Other) 93 - xiaohe
-  type: vless
-  server: 162.159.43.187
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 94 - xiaohe
-  type: vless
-  server: cf.877771.xyz
-  port: 80
-  uuid: 107332e5-ffdd-4ffe-8b6e-2dbbd4965aca
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  servername: cfnew571.ttu571.de5.net
   network: ws
   ws-opts:
     path: /?ed=2048
@@ -1369,24 +1127,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 74 - xiaohe
   - 🌐 其他地区 (Other) 75 - xiaohe
   - 🌐 其他地区 (Other) 76 - xiaohe
-  - 🌐 其他地区 (Other) 77 - xiaohe
-  - 🌐 其他地区 (Other) 78 - xiaohe
-  - 🌐 其他地区 (Other) 79 - xiaohe
-  - 🌐 其他地区 (Other) 80 - xiaohe
-  - 🌐 其他地区 (Other) 81 - xiaohe
-  - 🌐 其他地区 (Other) 82 - xiaohe
-  - 🌐 其他地区 (Other) 83 - xiaohe
-  - 🌐 其他地区 (Other) 84 - xiaohe
-  - 🌐 其他地区 (Other) 85 - xiaohe
-  - 🌐 其他地区 (Other) 86 - xiaohe
-  - 🌐 其他地区 (Other) 87 - xiaohe
-  - 🌐 其他地区 (Other) 88 - xiaohe
-  - 🌐 其他地区 (Other) 89 - xiaohe
-  - 🌐 其他地区 (Other) 90 - xiaohe
-  - 🌐 其他地区 (Other) 91 - xiaohe
-  - 🌐 其他地区 (Other) 92 - xiaohe
-  - 🌐 其他地区 (Other) 93 - xiaohe
-  - 🌐 其他地区 (Other) 94 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1468,23 +1208,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 74 - xiaohe
   - 🌐 其他地区 (Other) 75 - xiaohe
   - 🌐 其他地区 (Other) 76 - xiaohe
-  - 🌐 其他地区 (Other) 77 - xiaohe
-  - 🌐 其他地区 (Other) 78 - xiaohe
-  - 🌐 其他地区 (Other) 79 - xiaohe
-  - 🌐 其他地区 (Other) 80 - xiaohe
-  - 🌐 其他地区 (Other) 81 - xiaohe
-  - 🌐 其他地区 (Other) 82 - xiaohe
-  - 🌐 其他地区 (Other) 83 - xiaohe
-  - 🌐 其他地区 (Other) 84 - xiaohe
-  - 🌐 其他地区 (Other) 85 - xiaohe
-  - 🌐 其他地区 (Other) 86 - xiaohe
-  - 🌐 其他地区 (Other) 87 - xiaohe
-  - 🌐 其他地区 (Other) 88 - xiaohe
-  - 🌐 其他地区 (Other) 89 - xiaohe
-  - 🌐 其他地区 (Other) 90 - xiaohe
-  - 🌐 其他地区 (Other) 91 - xiaohe
-  - 🌐 其他地区 (Other) 92 - xiaohe
-  - 🌐 其他地区 (Other) 93 - xiaohe
-  - 🌐 其他地区 (Other) 94 - xiaohe
 rules:
 - MATCH,PROXIES
