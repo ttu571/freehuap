@@ -6,21 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 172.67.209.139
-  port: 443
-  uuid: cbfeff27-6e7a-4e99-b5ad-6b830e191741
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: srv-b890f5-eb36b6.omidiabolfazl155-c5f1.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/wk14rIXEvRltsm88Nsboi?ed=2560
-    headers:
-      Host: srv-b890f5-eb36b6.omidiabolfazl155-c5f1.workers.dev
-- name: 🇧🇬 BG 02 - xiaohe
-  type: vless
-  server: 2.56.204.183
+  server: 2.56.207.67
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -38,13 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
 rules:
 - MATCH,PROXIES
